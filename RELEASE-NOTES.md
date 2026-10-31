@@ -1,10 +1,5 @@
-JARVIS 1.12.1 — Windows and Apple Silicon Mac
+JARVIS 1.13.0 — Windows and Apple Silicon Mac
 
-Fixes the first recording timing out and slow first replies after opening the app.
+Realtime WebSocket speech recognition with complete-recording HTTP fallback and retryable failed recordings. Streamed AI answer text and sentence speech; progressive MP3 playback with bounded decoder fallback and position-preserving recovery. PC tools, vault synchronization and ChatGPT initialize independently of ordinary conversation. No ElevenLabs SDK on the request path. Existing notes, chats, saved connections and backups remain protected.
 
-- Voice transcription and speech use direct ElevenLabs HTTP requests, avoiding a large SDK import on the first voice request.
-- PC tools and the ChatGPT connection initialize in the background. Ordinary conversation can respond while PC services start; PC tasks wait for tool discovery when needed.
-- Completed replies no longer wait for the four-second progress timer.
-- Conversations, brain notes, saved connections and automatic backups stay in the existing workspace.
-
-Both platform builds run cold-start, voice-contract, data-safety and updater regression tests. Mac desktop control still requires macOS Accessibility, Screen Recording and Automation permissions when used.
+Both platform release builds, startup regressions, streaming tests and deterministic cold/warm benchmarks passed. Hosted benchmarks measure fixture providers and real browser playback; live API timings were measured on Windows only. Native Mac microphone, account network and physical audio-device timings require a real Mac and were not measured.
