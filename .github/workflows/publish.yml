@@ -1,0 +1,24 @@
+name: Publish JARVIS downloads
+on:
+  push:
+    paths: [release.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Download and verify compiled artifacts
+        run: node publish.mjs
+      - uses: softprops/action-gh-release@v3
+        with:
+          tag_name: v${{ env.JARVIS_VERSION }}
+          name: JARVIS ${{ env.JARVIS_VERSION }}
+          body_path: RELEASE-NOTES.md
+          fail_on_unmatched_files: true
+          files: downloads/*
