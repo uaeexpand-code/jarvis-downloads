@@ -3,13 +3,13 @@
   "artifacts": [
     {
       "name": "installer-windows-x64",
-      "url": "https://productionresultssa0.blob.core.windows.net/actions-results/decaa00d-a9c0-83a9-9a6c-ef7c277b0b57/workflow-job-run-aaf8b452-2fcd-5105-950d-7b28a6fd560d/artifacts/3c3ac7a012b654b1e4fb76b4dc76a044dca74e8b4a8f702e7d5b196502bc2538.zip?rscd=attachment%3B+filename%3D%22installer-windows-x64.zip%22&rsct=application%2Fzip&se=2026-10-31T12%3A28%3A43Z&sig=D6fu8%2Fz0w0zxsCWMqUlmji0gz2JBOjUjURlptz1aTy4%3D&ske=2026-10-31T13%3A47%3A20Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-10-31T09%3A47%3A20Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-10-31T12%3A18%3A38Z&sv=2025-11-05",
-      "sha256": "4a8cfa3cf02b14c00920811def675b5c1de1718e9da3e71681f21e2bb72d5fbd"
+      "url": "https://productionresultssa7.blob.core.windows.net/actions-results/de5b6981-d5a6-804c-9609-b2cae7b0b287/workflow-job-run-a2aa6968-f30a-56a0-9b53-4f64295f881d/artifacts/3c3ac7a012b654b1e4fb76b4dc76a044dca74e8b4a8f702e7d5b196502bc2538.zip?rscd=attachment%3B+filename%3D%22installer-windows-x64.zip%22&rsct=application%2Fzip&se=2026-10-31T13%3A01%3A12Z&sig=DcAb6XgfpSc4q531f2dCKuXcsdnomSJPNMZFQ2A2XYc%3D&ske=2026-10-31T16%3A44%3A59Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-10-31T12%3A44%3A59Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-10-31T12%3A51%3A07Z&sv=2025-11-05",
+      "sha256": "6ee0b96ae489d098ffb5eb06d9703ef42db1945153af9393cf725f29be10d8e3"
     },
     {
       "name": "installer-macos-arm64",
-      "url": "https://productionresultssa0.blob.core.windows.net/actions-results/decaa00d-a9c0-83a9-9a6c-ef7c277b0b57/workflow-job-run-88f2be7e-a9f4-5cb4-80af-9559d38199a4/artifacts/23a37a3044cb76016f577de3fb3c0d060cde97d2b019a373cc396d83e7e960db.zip?rscd=attachment%3B+filename%3D%22installer-macos-arm64.zip%22&rsct=application%2Fzip&se=2026-10-31T12%3A28%3A44Z&sig=yC%2BmBBuRwe%2BwoK3tw2kBW76RK2PJfpNbWZO4KLARxcc%3D&ske=2026-10-31T13%3A47%3A16Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-10-31T09%3A47%3A16Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-10-31T12%3A18%3A39Z&sv=2025-11-05",
-      "sha256": "3216fed42f3ea9e7c7025995c335b3d2c2383e1d0e42889f4a534c7079968ed2"
+      "url": "https://productionresultssa7.blob.core.windows.net/actions-results/de5b6981-d5a6-804c-9609-b2cae7b0b287/workflow-job-run-5c4ee13b-0b3d-54f5-9494-11009161e668/artifacts/23a37a3044cb76016f577de3fb3c0d060cde97d2b019a373cc396d83e7e960db.zip?rscd=attachment%3B+filename%3D%22installer-macos-arm64.zip%22&rsct=application%2Fzip&se=2026-10-31T13%3A01%3A13Z&sig=IPVgytA%2F4bZWHjmFwgUpDIjlWiIPooqeCn%2B8omUAQAM%3D&ske=2026-10-31T16%3A46%3A08Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-10-31T12%3A46%3A08Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-10-31T12%3A51%3A08Z&sv=2025-11-05",
+      "sha256": "8e27e0eb018cfb0a62cceb528e679f54be336f3ad941d7974ee15728bbda3dca"
     }
   ]
 }
